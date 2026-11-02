@@ -219,7 +219,7 @@ public:
     }
 
     void searchPatient() {
-        string key = toLower(readLine("Enter patient ID or name: "));
+        string key = toLower(readLine("Enter patient ID or name:"));
         bool found = false;
         for (auto& p : patients) {
             if (to_string(p.id) == key || toLower(p.name).find(key) != string::npos) {
