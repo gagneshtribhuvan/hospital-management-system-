@@ -362,7 +362,7 @@ int main() {
 
     while (true) {
         showMenu();
-        int choice = readInt("Choose an option: ");
+        int choice = readInt("Choose an option : ");
         cout << "\n";
         switch (choice) {
             case 1: h.addPatient(); break;
